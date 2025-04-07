@@ -1,9 +1,11 @@
+
 {
   "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+      "deploy":"gh-pages -d dist",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

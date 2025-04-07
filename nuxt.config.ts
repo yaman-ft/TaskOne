@@ -6,5 +6,8 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  ssr:true
+  ssr: false,
+  app: {
+    baseURL:'/TaskOne/'
+  }
 });
